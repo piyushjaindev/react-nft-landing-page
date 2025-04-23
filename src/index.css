@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-display: "Work Sans", "sans-serif"; 
+    --breakpoint-md: 834px;
+  }
+
+@utility rounded-20 {
+  border-radius: 20px
+}

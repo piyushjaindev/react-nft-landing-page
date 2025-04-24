@@ -1,5 +1,5 @@
 import Section from '../Section'
-import Button from '../Button'
+import Button from '../buttons/Button'
 import astronaut from '../../assets/images/astronaut.png'
 import email from '../../assets/icons/email.svg'
 

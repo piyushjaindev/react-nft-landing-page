@@ -1,4 +1,4 @@
-import Button from "../Button"
+import Button from "../buttons/Button"
 import Section from "../Section"
 import rocket from "../../assets/icons/rocket.svg"
 import nft from "../../assets/images/hero_nft.png"

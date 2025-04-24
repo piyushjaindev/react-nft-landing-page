@@ -11,11 +11,13 @@ import {
 import HomePage from "./pages/HomePage.jsx";
 import ConnectWalletPage from "./pages/ConnectWalletPage.jsx";
 import CreateAccountPage from "./pages/CreateAccountPage.jsx";
+import MarketplacePage from "./pages/MarketplacePage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="" element={<HomePage />} />
+      <Route path="marketplace" element={<MarketplacePage />} />
       <Route path="connect-wallet" element={<ConnectWalletPage />} />
       <Route path="create-account" element={<CreateAccountPage />} />
       <Route path="contact" element={<h1>Contact</h1>} />

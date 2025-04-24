@@ -34,7 +34,7 @@ function Footer() {
             </h5>
             <ul className="mt-7">
               <li className="text-base text-[#CCCCCC] leading-[140%]">
-                Marketplace
+                <Link to="/marketplace">Marketplace</Link>
               </li>
               <li className="text-base text-[#CCCCCC] leading-[140%] mt-5">
                 Rankings

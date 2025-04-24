@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 function Nav() {
   const navItems = [
-    { text: "Marketplace", link: "/" },
+    { text: "Marketplace", link: "/marketplace" },
     { text: "Rankings", link: "/" },
     { text: "Connect a wallet", link: "/connect-wallet" },
   ];

@@ -12,7 +12,9 @@ function Footer() {
       <div className="mx-auto max-w-sm md:max-w-3xl xl:max-w-6xl">
         <div className="flex max-xl:flex-col gap-7 xl:gap-32 px-5 justify-between">
           <div className="w-full xl:w-lg">
-            <img src={logo} alt="logo" />
+            <Link to="/">
+              <img src={logo} alt="logo" />
+            </Link>
             <p className="text-[#CCCCCC] text-base leading-[140%] mt-5 xl:mt-7">
               NFT marketplace UI created with Anima for Figma.
             </p>
@@ -49,11 +51,11 @@ function Footer() {
             <p className="mt-5 xl:mt-6 text-white text-base leading-[140%]">
               Get exclusive promotions & updates straight to your inbox.
             </p>
-            <div className="flex bg-white rounded-20 mt-5 max-w-[420px]">
+            <div className="flex bg-white rounded-20 mt-5 max-w-[420px] text-black">
               <input
                 type="email"
                 placeholder="Enter your email here"
-                className="flex-1 m-2 max-md:h-[46px] outline-none"
+                className="flex-1 my-2 mx-4 max-md:h-[46px] outline-none "
               />
               <Button label="Subscribe" classes="max-md:hidden" />
             </div>

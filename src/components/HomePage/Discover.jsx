@@ -1,9 +1,9 @@
-import Section from "./Section"
-import eye from '../assets/icons/eye.svg'
-import nft from '../assets/images/hero_nft.png'
-import dog from '../assets/images/dog.png'
-import robot from '../assets/images/robot.png'
-import avatar from '../assets/images/avatar.png'
+import Section from "../Section"
+import eye from '../../assets/icons/eye.svg'
+import nft from '../../assets/images/hero_nft.png'
+import dog from '../../assets/images/dog.png'
+import robot from '../../assets/images/robot.png'
+import avatar from '../../assets/images/avatar.png'
 
 
 function Discover() {

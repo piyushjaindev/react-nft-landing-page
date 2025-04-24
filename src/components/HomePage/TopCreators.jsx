@@ -1,6 +1,6 @@
-import Section from './Section'
-import rocket from '../assets/icons/rocket.svg'
-import avatar from '../assets/images/avatar.png'
+import Section from '../Section'
+import rocket from '../../assets/icons/rocket.svg'
+import avatar from '../../assets/images/avatar.png'
 
 function TopCreators() {
 

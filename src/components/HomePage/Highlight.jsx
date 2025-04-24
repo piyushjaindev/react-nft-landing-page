@@ -1,5 +1,5 @@
-import avatar from '../assets/images/avatar.png'
-import eye from '../assets/icons/eye.svg'
+import avatar from '../../assets/images/avatar.png'
+import eye from '../../assets/icons/eye.svg'
 
 function Highlight() {
   return (

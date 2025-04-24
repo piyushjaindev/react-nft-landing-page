@@ -1,7 +1,7 @@
-import Section from './Section'
-import Button from './Button'
-import astronaut from '../assets/images/astronaut.png'
-import email from '../assets/icons/email.svg'
+import Section from '../Section'
+import Button from '../Button'
+import astronaut from '../../assets/images/astronaut.png'
+import email from '../../assets/icons/email.svg'
 
 function Newsletter() {
   return (

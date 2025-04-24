@@ -1,13 +1,13 @@
-import Section from './Section'
-import nft from '../assets/images/hero_nft.png'
-import art from '../assets/icons/art.svg'
-import collectibles from '../assets/icons/collectibles.svg'
-import music from '../assets/icons/music.svg'
-import photography from '../assets/icons/photography.svg'
-import video from '../assets/icons/video.svg'
-import utility from '../assets/icons/art.svg'
-import sport from '../assets/icons/sport.svg'
-import planet from '../assets/icons/planet.svg'
+import Section from '../Section'
+import nft from '../../assets/images/hero_nft.png'
+import art from '../../assets/icons/art.svg'
+import collectibles from '../../assets/icons/collectibles.svg'
+import music from '../../assets/icons/music.svg'
+import photography from '../../assets/icons/photography.svg'
+import video from '../../assets/icons/video.svg'
+import utility from '../../assets/icons/art.svg'
+import sport from '../../assets/icons/sport.svg'
+import planet from '../../assets/icons/planet.svg'
 
 function BrowseCategories() {
     const categories = [

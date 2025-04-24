@@ -1,8 +1,8 @@
-import Button from "./Button"
-import Section from "./Section"
-import rocket from "../assets/icons/rocket.svg"
-import nft from "../assets/images/hero_nft.png"
-import avatar from "../assets/images/avatar.png"
+import Button from "../Button"
+import Section from "../Section"
+import rocket from "../../assets/icons/rocket.svg"
+import nft from "../../assets/images/hero_nft.png"
+import avatar from "../../assets/images/avatar.png"
 
 
 

@@ -1,7 +1,7 @@
-import Section from './Section'
-import setupWallet from '../assets/images/setup_wallet.svg'
-import createCollection from '../assets/images/create_collection.svg'
-import startEarning from '../assets/images/start_earning.svg'
+import Section from '../Section'
+import setupWallet from '../../assets/images/setup_wallet.svg'
+import createCollection from '../../assets/images/create_collection.svg'
+import startEarning from '../../assets/images/start_earning.svg'
 
 function HowItWorks() {
     const steps = [

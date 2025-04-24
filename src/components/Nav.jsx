@@ -41,7 +41,9 @@ function Nav() {
           />
         </div>
         <div className="lg:hidden">
-          <img src={burgerMenu} alt="Menu" />
+          <Link to="/create-account">
+            <img src={burgerMenu} alt="Menu" />
+          </Link>
         </div>
       </div>
     </nav>

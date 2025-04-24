@@ -1,6 +1,8 @@
-function NftCard({ nftImage, avatar }) {
+import { Link } from "react-router-dom";
+
+function NftCard({ nftImage, avatar, id }) {
   return (
-    <div className="bg-[#3b3b3b] rounded-20 overflow-hidden">
+    <Link to={`/nft/${id}`} className="bg-[#3b3b3b] rounded-20 overflow-hidden">
       <img src={nftImage} alt="Hero Nft" className="max-h-[267px] w-full" />
       <div className="py-5 px-7">
         <h5 className="text-[22px] font-semibold text-white font-display leading-[140%]">
@@ -29,7 +31,7 @@ function NftCard({ nftImage, avatar }) {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

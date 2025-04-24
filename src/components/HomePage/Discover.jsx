@@ -44,7 +44,12 @@ function Discover() {
       </div>
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-7">
         {nfts.map((nft, index) => (
-          <NftCard key={index} avatar={avatar} nftImage={nft.image} />
+          <NftCard
+            key={index}
+            avatar={avatar}
+            nftImage={nft.image}
+            id={index}
+          />
         ))}
       </div>
     </Section>

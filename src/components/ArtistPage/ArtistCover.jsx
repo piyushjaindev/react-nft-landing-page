@@ -6,7 +6,7 @@ function ArtistCover() {
       <div className="bg-linear-to-b from-[rgba(162,89,255, 0)] to-[#A259FF] w-full h-full relative">
         <div className={`mx-[30px] md:mx-[72px] xl:mx-28 `}>
           <div className="mx-auto max-w-[315px] md:max-w-3xl xl:max-w-6xl ">
-            <div className="absolute bottom-0">
+            <div className="absolute bottom-0 max-md:left-0 max-md:right-0 flex max-md:justify-center">
               <img
                 src={avatar}
                 alt="Avatar"

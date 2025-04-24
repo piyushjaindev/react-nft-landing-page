@@ -14,6 +14,7 @@ import CreateAccountPage from "./pages/CreateAccountPage.jsx";
 import MarketplacePage from "./pages/MarketplacePage.jsx";
 import RankingsPage from "./pages/RankingsPage.jsx";
 import ArtistPage from "./pages/ArtistPage.jsx";
+import NftPage from "./pages/NftPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
       <Route path="connect-wallet" element={<ConnectWalletPage />} />
       <Route path="create-account" element={<CreateAccountPage />} />
       <Route path="artist/:id" element={<ArtistPage />} />
+      <Route path="nft/:id" element={<NftPage />} />
       <Route path="contact" element={<h1>Contact</h1>} />
       <Route path="*" element={<h1>404 Not Found</h1>} />
     </Route>

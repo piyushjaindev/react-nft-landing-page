@@ -37,7 +37,7 @@ function Footer() {
                 <Link to="/marketplace">Marketplace</Link>
               </li>
               <li className="text-base text-[#CCCCCC] leading-[140%] mt-5">
-                Rankings
+                <Link to="/rankings">Rankings</Link>
               </li>
               <li className="text-base text-[#CCCCCC] leading-[140%] mt-5">
                 <Link to="/connect-wallet">Connect a wallet</Link>

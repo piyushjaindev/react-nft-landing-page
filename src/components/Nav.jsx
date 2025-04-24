@@ -2,7 +2,7 @@ import logo from "../assets/icons/logo.svg";
 import user from "../assets/icons/user.svg";
 import burgerMenu from "../assets/icons/burger_menu.svg";
 import Button from "./buttons/Button";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Nav() {
   const navItems = [
@@ -10,6 +10,9 @@ function Nav() {
     { text: "Rankings", link: "/" },
     { text: "Connect a wallet", link: "/connect-wallet" },
   ];
+
+  const navigate = useNavigate();
+
   return (
     <nav>
       <div className="w-full h-24 flex items-center px-12 py-5 justify-between">
@@ -29,7 +32,13 @@ function Nav() {
           </ul>
         </div>
         <div className="max-lg:hidden">
-          <Button icon={user} label="Sign Up" />
+          <Button
+            icon={user}
+            label="Sign Up"
+            onClick={() => {
+              navigate("/create-account");
+            }}
+          />
         </div>
         <div className="lg:hidden">
           <img src={burgerMenu} alt="Menu" />

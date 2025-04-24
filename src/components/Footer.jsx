@@ -12,7 +12,9 @@ function Footer() {
       <div className="mx-auto max-w-sm md:max-w-3xl xl:max-w-6xl">
         <div className="flex max-xl:flex-col gap-7 xl:gap-32 px-5 justify-between">
           <div className="w-full xl:w-lg">
-            <img src={logo} alt="logo" />
+            <Link to="/">
+              <img src={logo} alt="logo" />
+            </Link>
             <p className="text-[#CCCCCC] text-base leading-[140%] mt-5 xl:mt-7">
               NFT marketplace UI created with Anima for Figma.
             </p>
